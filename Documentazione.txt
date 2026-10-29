@@ -1,0 +1,35 @@
+Fila A                                          		
+
+
+
+Classe Prodotto
+Rappresenta il Prodotto che contiene il nome, peso, prezzo e numero di prodotti rimanenti
+
+
+
+Attributi  (privati): 
+nome (string)  	  il nome del prodotto
+peso (float)  		  il peso del prodotto
+prezzo (float)  	  il prezzo in float del prodotto
+nPezzi (int)  		  il numero di prodotti rimanenti 
+
+
+Metodi: 
+
+getNome() / setNome(nome) : getter e setter per il nome del prodotto
+getPeso() / setPeso(peso) : getter e setter per il peso del prodotto
+getPrezzo() / setPrezzo(prezzo) : getter e setter per il prezzo del prodotto
+getNPezzi () / setnPezzi (nPezzi ) : getter e setter per il numero dei pezzi del prodotto
+
+
+vendiProdotto(nPezzi): decrementa i nPezzi di n, dato che il prodotto viene venduto
+rifornisci(nPezzi): aumenta i nPezzi di n, dato che il prodotto viene rifornito
+confronta(Prodotto):  confronta il contenuto (o anche indirizzo) dei prodotti
+toString(): restituisce tutti gli attributi della classe Prodotto
+
+
+
+
+
+
+
